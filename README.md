@@ -1,14 +1,14 @@
 # Speech-Emotion-Recognition
 This GitHub repository contains code for building and evaluating a Convolutional Neural Network (CNN) model to recognize emotions from audio data. The model is trained and tested on a dataset consisting of audio recordings of various emotions, including anger, disgust, fear, happiness, neutral, sadness, and surprise.
 
-**Overview**
+## Overview
 
 This GitHub repository contains code for building and evaluating a Convolutional Neural Network (CNN) model to recognize emotions from audio data. The model is trained and tested on a dataset consisting of audio recordings of various emotions, including anger, disgust, fear, happiness, neutral, sadness, and surprise.
 
 **Dataset**
 The dataset used for this project is a combination of three different emotion databases: RAVDESS, TESS, and SAVEE. Each dataset is processed and combined into a single DataFrame containing file paths, audio durations, dataset labels, and emotion labels.
 
-**RAVDESS Dataset**
+## RAVDESS Dataset
 
 Audio files from the RAVDESS dataset are processed.
 Emotions are labeled as 'neutral,' 'calm,' 'happy,' 'sad,' 'angry,' 'fear,' 'disgust,' or 'surprise.'
@@ -27,7 +27,7 @@ Data Splitting
 The dataset is split into training, validation, and test sets.
 The training set consists of 70% of the data, the validation set consists of 30%, and the test set consists of 10%.
 
-**Model Architecture**
+## Model Architecture
 
 The CNN model consists of several layers:
 
@@ -45,7 +45,7 @@ Output Layer: 7 nodes with softmax activation for predicting 7 emotion classes.
 Evaluation
 The model's performance is evaluated using the test set, and the predictions are compared to the ground truth labels. Two confusion matrices are generated: one displaying counts and another displaying ratios. These matrices help visualize the model's accuracy in recognizing different emotions.
 
-**Usage**
+## Usage
 
 To use this code, follow these steps:
 
@@ -55,7 +55,7 @@ Run the code sections sequentially in a Python environment (e.g., Jupyter Notebo
 Feel free to customize the model architecture, hyperparameters, or preprocessing steps to adapt it to your specific audio emotion recognition task.
 
 
-**Acknowledgments**
+##Acknowledgments
 
 Special thanks to the creators of the RAVDESS, TESS, and SAVEE datasets for providing valuable resources for emotion recognition research.
 
