@@ -55,7 +55,7 @@ Run the code sections sequentially in a Python environment (e.g., Jupyter Notebo
 Feel free to customize the model architecture, hyperparameters, or preprocessing steps to adapt it to your specific audio emotion recognition task.
 
 
-##Acknowledgments
+## Acknowledgments
 
 Special thanks to the creators of the RAVDESS, TESS, and SAVEE datasets for providing valuable resources for emotion recognition research.
 
